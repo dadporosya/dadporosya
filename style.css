@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    /* height: 77px; */
+    background: #476FA6;
+}
+
+header a {
+    color: #D1D4D8;
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 28px 35px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IPgames {  
+    width: 1202px;
+    height: 550px;
+    border-radius: 28px;
+    background: #476FA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}       
+
+.IPgames h1 {
+    color: #D1D4D8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}   
+
+.IPgames a {
+    color: #D1D4D8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    padding: 30px;
+}
+
+.artcl {
+    background-color:#d5dce6;
+    width: 1202px;
+    height: 469px;
+    border-radius: 38px;
+    margin: 30px;
+}
+
+#artcl_1 {
+    background-image: url("Root.jpg");
+    background-size: 100% 100%;
+    
+    display: flex;      
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#artcl_2 {  
+    height: 698px;
+
+    background-image: url("COB.jpg");
+    background-size: 100% 100%;
+
+    display: flex;  
+    align-items: center;    
+    flex-direction: column;
+}
+    
+#artcl_2 > h2 {
+    margin: 30px;
+}
+
+#artcl_2 > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+
+#artcl_2 p{ 
+    flex-direction: row;
+    justify-content: center;
+
+    color: #FFF;
+
+    width: 291px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#artcl_3 {
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url("Scythe.jpg");
+    background-size: 100% 100%;
+}
+
+#artcl_3 h2{
+    display: flex;  
+    font-size: 90px;
+    
+}
+
+#artcl_4 {
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url("Oath.jpg");
+    background-size: 100% 100%;
+}
+
+#artcl_4 h2{
+    display: flex;  
+    font-size: 90px;
+}
+
+#artcl_5 {
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url("gloomheaven.webp");
+    background-size: 100% 100%;
+}
+
+#artcl_5 h2{
+    display: flex;  
+    font-size: 90px;
+}
+
+.top_small{
+    display: flex;
+    width: 346px;
+    height: 369px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+    border-radius: 34px;
+
+    background: #C38A7F;
+}
+
+.top_small a {
+    color: #FFF;
+
+    width: 291px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.top {  
+    display: flex;
+    width: 476px;
+    height: 407px;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 34px;
+
+    background: #C38A7F;
+}
+
+.top p{
+    /* display: flex;
+    width: 565px;
+    height: 364px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0; */
+    width: 416px;
+height: 329px;
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top a {
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px;
+}
+
+h2 {
+    color:#476FA6;
+    font-family: Inter;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-shadow: #ffffff 3px 0 0px, #ffffff 0 3px 0px, #ffffff -3px 0 0px, #ffffff 0 -3px 0px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #476FA6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.soc {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 5px ridge #D1D4D8;
+    border-bottom: 5px ridge #D1D4D8;
+}
+
+.soc > div{   
+    margin-left: 60%;
+}
+
+
+.f_phone{
+    margin-right: 10px;
+}
+
+.soc_f{
+    display: flex;
+    justify-content: space-around;
+    gap: 7px;
+}   
+
+footer p {
+    color: var(--White, #FFF);
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.top_arrow {
+    position: relative;
+    left: 200px;
+
+}
+
+.block_text p{
+
+    height: 329px;
+
+    color: #9c7067;
+
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+ 
+}
+
+.b_img {
+    display: flex;
+    align-items: center;
+}
+
+#root {
+    height: 1250px;
+}
+
+#oath {
+    height: 1100px;
+}
+
+#fort {
+    height: 1100px;
+}
+
+#empty {
+    height: 303px;
+} 
+
+#artcl_review{
+    background-image: url("background.jpg");
+    background-size: 100% 100%;
+    
+    display: flex;      
+    align-items: center;
+    justify-content: space-around;
+}
